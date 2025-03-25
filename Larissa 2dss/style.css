@@ -1,0 +1,27 @@
+@font-face {
+    font-family: fonte1;
+    src: url(content/fonts/Vogue.ttf);
+}
+h2{
+
+font-family: fonte1;
+
+}
+h1{
+
+    font-family: fonte1;
+    
+    }
+    
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+body {
+    background-color: rgb(255, 152, 207);
+}
