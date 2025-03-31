@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.metade {
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    color: #333;
+}
+
+.rosa {
+    background-color: #ffc2cc;
+    text-align: left; /* Alinhando texto à esquerda */
+}
+
+.branca {
+    background-color: white;
+    text-align: left; /* Alinhando texto à esquerda */
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #fd8c9f;; /* Cor personalizada para o título (rosa escuro) */
+}
+
+h2 {
+    color: #000000; /* Cor roxa para o subtítulo */
+}
+
+h3 {
+    color: #000000; /* Cor verde para os textos de informações */
+}
+
+ul.lista-pontinhos {
+    list-style-type: disc;  /* Usa pontinhos como marcadores */
+    margin-left: 20px;      /* Adiciona uma margem à esquerda */
+    padding: 0;             /* Remove o padding padrão */
+}
+
+ul.lista-pontinhos li {
+    font-size: 18px;        /* Tamanho da fonte dos itens */
+    color: #333;            /* Cor do texto */
+    margin-bottom: 10px;    /* Espaço entre os itens */
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
